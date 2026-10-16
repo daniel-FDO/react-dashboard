@@ -42,11 +42,13 @@ nav a {
   border-radius: 12px;
   margin-bottom: 16px;
   flex: 1;
+  font-size: 12px;
 }
 
 .projects {
   display: flex;
   gap: 20px;
+  
 }
 
 #learning {
@@ -56,6 +58,7 @@ nav a {
   margin-bottom: 16px;
   display: flex;
   justify-content: space-between;
+  font-size: 15px;
 }
 
 .learningButton {
@@ -63,6 +66,7 @@ nav a {
   color: white;
   border-radius: 12px;
   width: 160px;
+  height: 50px;
 }
 
 #H1 {
@@ -71,4 +75,10 @@ nav a {
   border-radius: 12px;
   padding: 12px 24px;
   
+  
+}
+
+#learning p {
+  color: #555;
+  font-size: 14px;
 }

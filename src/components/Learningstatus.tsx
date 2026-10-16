@@ -5,16 +5,22 @@ const Learningstatus = () => {
 
   return (
     <section id="learning">
-      <p>
-        {isLearning
-          ? "Daniel is currently learning React."
-          : "Daniel is taking a break."}
-      </p>
-      <button onClick={() => setIsLearning(!isLearning)} className="learningButton">Change Status</button>
+      <div>
+        <h2>
+          {isLearning
+            ? "Daniel is currently learning React."
+            : "Daniel is taking a break."}
+        </h2>
+        <p>Always building, always learning!</p>
+      </div>
+      <button
+        onClick={() => setIsLearning(!isLearning)}
+        className="learningButton"
+      >
+        Change Status
+      </button>
     </section>
   );
 };
 
-export default Learningstatus; 
-
-
+export default Learningstatus;
