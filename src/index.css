@@ -1,0 +1,74 @@
+body {
+  background-color: #f3f4f6;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+header {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: #2563eb;
+  margin-left: 20px;
+}
+
+.stat-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  flex: 1;
+}
+
+.stats {
+  display: flex;
+  gap: 20px;
+}
+
+.project-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  flex: 1;
+}
+
+.projects {
+  display: flex;
+  gap: 20px;
+}
+
+#learning {
+  background-color: #ede9fe;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.learningButton {
+  background-color: rgb(8, 75, 95);
+  color: white;
+  border-radius: 12px;
+  width: 160px;
+}
+
+#H1 {
+  background-color: rgb(101, 166, 185);
+  color: white;
+  border-radius: 12px;
+  padding: 12px 24px;
+  
+}
