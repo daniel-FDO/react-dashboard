@@ -11,7 +11,7 @@ function App() {
       <Header />
       <main id="home">
         <p>Welcome back</p>
-        <h1>Hi there, I'm {name} 👋</h1>
+        <h1>Hi there, I'm {name} 👋🤞</h1>
         <p>I am learning React and building my development skills.</p>
         <div className="stats" id="projects">
           <Stat title="Projects" value={2} />
