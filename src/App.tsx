@@ -16,7 +16,7 @@ function App() {
         <div className="stats" id="projects">
           <Stat title="Projects" value={2} />
           <Stat title="Weeks completed" value={4} />
-          <Stat title="Current focus" value="React" />{" "}
+          <Stat title="Current focus" value="React" />
         </div>
         <section>
           <h2>My Projects</h2>
