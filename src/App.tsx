@@ -13,7 +13,7 @@ function App() {
         <p>Welcome back</p>
         <h1>Hi there, I'm {name} 👋🤞</h1>
         <p>I am learning React and building my development skills.</p>
-        <div className="stats" id="projects">
+        <div className="stats">
           <Stat title="Projects" value={2} />
           <Stat title="Weeks completed" value={4} />
           <Stat title="Current focus" value="React" />
