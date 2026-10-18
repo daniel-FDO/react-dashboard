@@ -1,18 +1,38 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+
+
 
 
 
 export const About = () => {
     const name = "Daniel";
+    const [post, setPost] = useState([]);
+
+
+    useEffect(() => {
+      fetch('https://jsonplaceholder.typicode.com/posts')
+      .then(response => response.json())
+      .then(json => setPost(json))
+    
+      
+    
+    }, [])
+    
+   
   return (
     <div>
+       <p>loading</p>
+       {post.map((product) => 
+       <div>
+        <p>{product.id}</p>
+        <p>{product.title}</p>
+
+
+        </div>
       
-      <main id="home">
-        <p>Welcome back</p>
-        <h1>Hi there, I'm {name} </h1>
-        <p>I am learning React and building my development skills.</p>
-        
-      </main>
+      )}
+
     </div>
+   
   );
 };
